@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<!---start of the head--->
+	<head>
+		<title> GWC Final Project </title>
+		<link href="duplicate.css" rel="stylesheet"></link>
+		<meta charset="utf-8">
+		<!--
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="duplicate.js"></script>
+		
+		
+	</head>
+<!---end of the head--->
+	<body>
+		<!--Start of the first page-->
+		<div id="title">
+			<h1>  One Stop Politics </h1>
+		</div>	
+			<div id="subtitle">
+				<p> <font face="verdana"> Your one-stop shop for all your political needs. </font> </p>
+			</div>	 
+			
+		<!--end of the first page-->
+		
+			
+		<!--the second page with the misson-->		
+		<div id= "purpose">
+			<h2><b><font face="verdana"> Our Mission</font></b></h2>
+		
+		
+			<div id = "intro">
+			<p> <font face = "verdana"> With the upcoming presidential election and the amount of current events involving police brutality and environmental issues, we 
+			found it necessary to create a website that makes information on these topics easily available to young and new voters. It will no longer be overwhelming to
+			google information and have to search through the various links that pop up on your screen. We've found a way to centralize all of this information briefly
+			in the three topics below.</p>
+			</div>
+		
+			<!--<div id = "titles">
+				<ul>
+					<li><a href = "#" id = "current1">Civil Rights</a></li>
+					<li><a href = "#">Presidential Elections</a></li>
+					<li><a href = "#"> Environmental Issues</a></li>
+				</ul>
+			</div>	-->
+			
+			<div id= "civil_rights">
+				<ul>
+					<li><a href = "#" id = "current"><img src = "civil_rights.jpg" alt= "protest" style = "width: 400px; height: 350px;" Vspace="30;"></a></li>
+					<li><a href = "#"><img src = "elections.jpg" alt = "presidential elections" style = "width: 400px; height: 350px;" Vspace="30;"></a></li>
+					<li><a href="#"><a href="slideshow.html"><img src = "environment.jpg" alt = "peaceful climate change march" style = "width: 400px; height: 350px;" Vspace="30;"></a></a></li>
+				</ul>
+			
+			</div>
+			<!-- put in all links and position according to matching picture--> 
+			
+			<div id = "headings">
+				<ul>
+					<li><a href = "#" id = "current">Civil Rights</a></li>
+					<li> Presidential Elections</li>
+					<li>Environmental Issues</li>
+				</ul>
+			</div>	
+
+		</div>	
+	
+
+		<div id = "border"> <br> </br> </div>
+		<!--end of the second page-->
+		
+		
+		<!--Beginning of the third page with the infographic-->	
+		<div id = "infographic">
+		
+			<h3> Most Well Known Cases of Social Justice </h3>
+		<div id = "firstsection">
+		
+			<h5> Scroll Over Their Images to See The Date They Were Attacked</h5>
+			<div id = "peoplenames">
+			<ul>
+				<li><p>Rodney King</p></li>
+				<li><p>Oscar Grant</p></li>
+				<li><p>Trayvon Martin</p></li>
+				<li><p>Eric Garner</p></li>
+				<li><p>Michael Brown</p></li>
+				<li><p>Tamir Rice</p></li>
+				<li><p>Sandra Bland</p></li>
+			</ul>
+			</div>
+			
+			<div id = "peoplepics">
+			<ul>
+				<li><a href = "#" onMouseOver = "document.myImage.src = image2.src;" onMouseOut = "document.myImage.src = image1.src;"><img name = "myImage" src = "rodneyking.jpg" alt = "Rodney King" style = "width: 200px; height: 200px"></a></li>
+				<li><a href = "#" onMouseOver = "document.myImage2.src = image4.src;" onMouseOut = "document.myImage2.src = image3.src;"><img name = "myImage2" src = "oscargrant.jpg" alt = "Oscar Grant" style = "width: 200px; height: 200px"></a></li>
+				<li><a href = "#" onMouseOver = "document.myImage3.src = image6.src;" onMouseOut = "document.myImage3.src = image5.src;"><img name="myImage3" src = "trayvonmartin.jpg" alt = "Trayvon Martin" style = "width: 200px; height: 200px"></a></li>
+				<li><a href = "#" onMouseOver = "document.myImage4.src = image8.src;" onMouseOut = "document.myImage4.src = image7.src;"><img name = "myImage4" src = "ericgarner.jpg" alt = "Eric Garner" style = "width: 200px; height: 200px"></a></li>
+				<li><a href = "#" onMouseOver = "document.myImage5.src = image10.src;" onMouseOut = "document.myImage5.src = image9.src;"><img name = "myImage5" src = "mikebrown.jpg" alt = "Michael Brown" style = "width: 200px; height: 200px"></a></li>
+				<li><a href = "#" onMouseOver = "document.myImage6.src = image12.src;" onMouseOut = "document.myImage6.src = image11.src;"><img name = "myImage6" src = "tamirrice.jpg" alt = "Tamir Rice" style = "width: 200px; height: 200px"></a></li>
+				<li><a href = "#" onMouseOver = "document.myImage7.src = image14.src;" onMouseOut = "document.myImage7.src = image13.src;"><img name = "myImage7" src = "sandrabland.jpg" alt = "7-10-2015" style = "width: 200px; height: 200px"></a></li>
+			</ul>
+			</div>
+		</div>	
+			<h4> How Did People Respond? </h4>
+			<h6> Select One of The Buttons Below That You'd Like to Know More About</h6>
+	
+		<div id = "efforts">
+			<ol type = "1">
+				<!--First Circle-->
+				<li id = "circle1"><button id = "button1" onClick = "show_when_clicked()">Rodney King</button><br></br>
+				<!--<p id = "show"  style="visibility:hidden;">If you click on the "Hide" button, I will disappear.</p>-->
+					<img src = "riots.jpg" id = "show1" style = "width: 350px; height: 350px; visibility: hidden;"><br></br>
+					<span id = "caption1" style = "visibility: hidden;"> On the night of March 21, 1991, the LAPD stopped a 
+					motorist for a traffic violation. After resisting police orders, King was beaten with nightsticks and kicked
+					by the police. The incident was videotaped and brought to the Grand Jury a week after. On April 29,1992 
+					the trial verdict announced that the indicted officers were acquitted of the majority of their criminal charges.
+					The verdict resulted in explosive riots beginning the next night in Los Angeles. In many of the outbreaks, rioters
+					pulled motorists out of their cars and attacked them in South Central Los Angeles.
+					</span>
+				</li>
+				
+				<!--Second Circle-->
+				<li id = "circle2"><button id = "button2" onClick = "show_when_clicked2()"> Oscar Grant</button><br></br>
+					<img src = "grantprotest.jpg" id = "show2" style = "width: 350px; height: 350px; visibility: hidden;"><br></br>
+					<span id = "caption2" style = "visibility: hidden;"> In 2009, a BART police officer shot and killed 22 year old 
+					Oscar Grant on a platform at Fruitvale station on New Years Day. Grant and several other Black male passengers 
+					were pulled off of the train and detained on the platform. The police officer claimed that he was going to use 
+					his taser, but accidentally reached for his gun and shot Grant in the back. </span>
+				</li>
+				
+				<!--Third Circle-->
+				<li id = "circle3"><button id = "button3" onClick = "show_when_clicked3()"> Trayvon Martin</button><br></br>
+					<img src = "trayvonprotest.jpg" id = "show3" style = "width: 350px; height: 350px; visibility: hidden;"><br></br>
+					<span id = "caption3" style = "visibility: hidden;"> Information below</span>
+				</li>
+				
+				<!--Fourth Circle-->
+				<li id = "circle4"><button id = "button4" onClick = "show_when_clicked4()"> Eric Garner</button><br></br>
+					<img src = "ericprotest.jpg" id = "show4" style = "width: 350px; height: 350px; visibility: hidden;"><br></br>
+					<span id = "caption4" style = "visibility: hidden;"> Information below</span>
+				</li>
+				
+				<!--Fifth Circle-->
+				<li id = "circle5"><button id = "button5" onClick = "show_when_clicked5()"> Michael Brown</button><br></br>
+					<img src = "mikeprotest.jpg" id = "show5" style = "width: 350px; height: 350px; visibility: hidden;"><br></br>
+					<span id = "caption5" style = "visibility: hidden;"> Information below </span>
+				</li>
+				
+				<!--Sixth Circle-->
+				<li id = "circle6"><button id = "button6" onClick = "show_when_clicked6()"> Tamir Rice</button><br></br>
+					<img src = "tamirprotest.jpg" id = "show6" style = "width: 350px; height: 350px; visibility: hidden;"><br></br>
+					<span id = "caption6" style = "visibility: hidden;">In 2014, 12 year old Tamir Rice was shot and killed by a police
+					officer for playing with a BB gun outside. There is video evidence of two police officers driving up in front of him
+					and shooting him within two seconds before even getting out of the car.</span>
+				</li>
+				
+				<!--Seventh Circle-->
+				<li id = "circle7"><button id = "button7" onClick = "show_when_clicked7()"> Sandra Bland</button><br></br>
+					<img src = "sandraprotest.jpg" id = "show7" style = "width: 350px; height: 350px; visibility: hidden;"><br><br/>
+					<span id = "caption7" style = "visibility: hidden;"> Information Below
+					</span>
+				</li>
+				
+			</ol>
+		</div>
+		</div>
+		</body>
+</html>

@@ -1,0 +1,439 @@
+
+body {
+	color: #FFFFFF;
+	background-image: url("http://makeupbridalschool.com/wp-content/uploads/2015/02/Washington-D.C.-Bridal-Makeup-School.jpg");
+	background-repeat:no-repeat;
+	background-color: #FFFFFF;
+	
+	margin-left: 0px;
+	margin-right: 70px;
+	
+   /* padding-right: 20px;
+    padding-left: 20px;*/
+	
+	}
+	
+	
+@font-face {
+	font-family: Dense-Regular;
+	src: url('Dense-Regular.otf');
+}
+	
+		
+#title {
+	text-align: center;
+	font-size: 300%;
+	margin-top: 300px;
+	font-family: Delicious, sans-serif;		
+}
+
+
+	
+#purpose{
+	color: black;
+	text-align: center;
+	font-size: 150%;
+	padding-top: 800px;
+}	
+	
+#subtitle {
+	text-align: center;
+}
+
+	
+#intro{
+	color: #000000;
+	text-align: center;
+	padding-top: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+}	
+
+#titles li{
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 150px;
+	position: static;
+	
+}
+
+#civil_rights li{
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 90px;
+}
+
+/*
+#headings ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+*/
+#headings li
+{
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 50px;
+}
+
+/*#firstheading
+{
+	width: 400px;
+	height: 350px;
+}
+
+#secondheading
+{
+	text-align: center;
+}
+
+#thirdheading
+{
+	text-align: right;
+}*/
+
+#infographic
+{
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 400%;
+	color: #944DDB;
+	page-break-after: always;
+	border-style: solid;
+	border-color: #5C0099;
+	margin-left: 70px;
+	margin-top: 90px;
+}
+
+
+#peoplenames li
+{
+	display: inline-block;
+    list-style-type: none;
+    padding-right: 75px;
+    vertical-align: middle;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 40%;
+	color: #944DDB;
+}
+
+h4
+{
+	font-weight: 100;
+	color:#944DDB;
+
+}
+
+h3
+{
+	color: ;
+}
+/*#firstsection
+{
+	background-color: #DB704D;
+}*/
+
+#peoplepics li
+{
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 20px;
+}
+
+#circle1
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+#circle2 
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+#circle3 
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+#circle4 
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+#circle5 
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+#circle6 
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+#circle7 
+{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin-bottom: 30px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	position: relative;
+}
+
+h5
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-style: italic;
+	text-align: center;
+	color: black;
+}
+
+h6
+{
+	text-align: left;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-style: italic;
+	color: black;
+}
+
+#efforts
+{
+	margin-left:50px;
+}
+
+
+#button1
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 40px;
+	padding: 0;
+	position: relative;
+}
+
+#button2
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 40px;
+	padding: 0;
+	position: relative;
+}
+
+
+#button3
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 40px;
+	padding: 0;
+	position: relative;
+}
+
+
+#button4
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 45px;
+	padding: 0;
+	position: relative;
+}
+
+
+#button5
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 40px;
+	padding: 0;
+	position: relative;
+}
+
+
+#button6
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 40px;
+	padding: 0;
+	position: relative;
+}
+
+
+#button7
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 70px;
+	color: #944DDB;
+	background: none;
+	border: none;
+	margin-top: 40px;
+	padding: 0;
+	position: relative;
+}
+
+#border
+{
+	background-color: black;
+	left: 0;
+	height:20px;
+	width: 1900px;
+}
+
+#show1{
+	
+}
+
+#show2
+{
+	position: relative;
+}
+
+#show3{
+
+}
+
+#show4{
+
+}
+
+#show5{
+
+}
+
+#show6{
+
+}
+
+#show7{
+
+}
+
+#caption1
+{
+	font-size: 30%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#caption2
+{
+	font-size: 40%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#caption3
+{
+	font-size: 40%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#caption4
+{
+	font-size: 40%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#caption5
+{
+	font-size: 40%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#caption6
+{
+	font-size: 40%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#caption7
+{
+	font-size: 40%;
+	color: white;
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
